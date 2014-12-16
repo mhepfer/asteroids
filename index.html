@@ -13,8 +13,12 @@
   </head>
 
   <body>
+
+    <div id="SplashScreen">
+      <h1>Snake</h1>
+      <input id="StartButton" type="button" value="Start" />
+    </div>
     <canvas id="blah"></canvas>
-    <input class="StartButton" type="button" value="Start" />
 
     <script src="lib/movingObjects.js"></script>
     <script src="lib/utils.js"></script>
@@ -26,7 +30,15 @@
     <script src="keymaster.js"></script>
     <script>
       var gameView = new Asteroids.GameView()
-      // gameView.start();
+
+      document.getElementById("StartButton").onclick = function () {
+        document.getElementById("SplashScreen").remove();
+        // document.getElementById('blah').show();
+        gameView.start();
+      };
+      // document.getElementById('start').onclick = function(){
+      //   gameView.start();
+      // }
     </script>
   </body>
 </html>
