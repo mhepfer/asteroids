@@ -15,8 +15,10 @@
   <body>
 
     <div id="SplashScreen">
-      <h1>Snake</h1>
-      <input id="StartButton" type="button" value="Start" />
+      <h1>Einstein's Asteroids</h1>
+      <div id="startScreen">
+        <input id="StartButton" type="button" value="Start" />
+      </div>
     </div>
     <canvas id="blah"></canvas>
 
@@ -32,13 +34,9 @@
       var gameView = new Asteroids.GameView()
 
       document.getElementById("StartButton").onclick = function () {
-        document.getElementById("SplashScreen").remove();
-        // document.getElementById('blah').show();
+        document.getElementById("startScreen").remove();
         gameView.start();
       };
-      // document.getElementById('start').onclick = function(){
-      //   gameView.start();
-      // }
     </script>
   </body>
 </html>
