@@ -1,0 +1,14 @@
+h1 {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#canvasContainer {
+	width: 100%;
+	text-align: center;
+}
+
+#blah {
+	display: inline;
+}
