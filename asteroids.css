@@ -17,3 +17,20 @@ h1 {
 #blah {
 	display: inline;
 }
+
+#directions{
+	width: 100%;
+	text-align: center;
+}
+
+h3 {
+	display: inline-block;
+}
+
+#two {
+	padding-left:5em;
+}
+
+#three {
+	padding-left:5em;
+}
