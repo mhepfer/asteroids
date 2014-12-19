@@ -9,6 +9,11 @@ h1 {
 	text-align: center;
 }
 
+#SplashScreen{
+	width: 100%;
+	text-align: center;
+}
+
 #blah {
 	display: inline;
 }
