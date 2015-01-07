@@ -2,6 +2,12 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
 }
 
 #canvasContainer {
@@ -15,26 +21,50 @@ h1 {
 }
 
 #blah {
-	display: inline;
-}
-
-#directions{
-	width: 100%;
-	text-align: center;
-}
-
-h3 {
 	display: inline-block;
 }
 
-#two {
-	padding-left:5em;
+#directions{
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	margin: 0;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
 }
 
-#three {
-	padding-left:5em;
-}
-
-#four {
-	padding-left:5em;
-}
+.button {
+   border-top: 1px solid #000000;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 36px;
+   -moz-border-radius: 36px;
+   border-radius: 36px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #120412;
+   font-size: 18px;
+   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }

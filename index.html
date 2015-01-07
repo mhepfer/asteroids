@@ -16,22 +16,23 @@
 
   <body>
     <h1>Einstein's Asteroids</h1>
+
     <div id="SplashScreen">
       <div id="startScreen">
-        <input id="StartButton" type="button" value="Start" />
+        <input id="StartButton" class="button" type="button" value="Start" />
       </div>
     </div>
 
     <div id="canvasContainer">
-      <canvas id="blah"></canvas>
+      <div id="directions">
+        <h3> move: arrows or "wasd" </h3>
+        <h3 id="two"> shoot: space </h3>
+        <h3 id="three"> emergency stop: s </h3>
+        <h3 id="four"> change frame: c </h3>
+      </div>
+      <canvas id="blah"></canvas>      
     </div>
 
-    <div id="directions">
-        <h3> arrows: move </h3>
-        <h3 id="two"> space: shoot </h3>
-        <h3 id="three"> s: emergency stop </h3>
-        <h3 id="four"> c: change frame </h3>
-    </div>
 
     <script src="lib/movingObjects.js"></script>
     <script src="lib/utils.js"></script>
