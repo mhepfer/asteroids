@@ -10,47 +10,48 @@ h1 {
 	line-height: 26.3999996185303px;
 }
 
+h3 {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+}
+
 #canvasContainer {
 	width: 100%;
 	text-align: center;
 }
 
 #SplashScreen{
-	width: 100%;
+	position: absolute;
 	text-align: center;
+	left: 50%;
+	margin-left: -50px;
+	top: 280px;
+	z-index: 99;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 32px;
 }
 
 #blah {
-	display: inline-block;
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	margin-left: -400px;
 }
 
 #directions{
-	display: inline-block;
 	width: 200px;
 	text-align: left;
 	margin: 0;
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.3999996185303px;
 }
 
 .button {
    border-top: 1px solid #000000;
    background: #ffffff;
-   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
-   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
-   background: -moz-linear-gradient(top, #ffffff, #ffffff);
-   background: -ms-linear-gradient(top, #ffffff, #ffffff);
-   background: -o-linear-gradient(top, #ffffff, #ffffff);
    padding: 9.5px 19px;
-   -webkit-border-radius: 36px;
-   -moz-border-radius: 36px;
    border-radius: 36px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: #120412;
