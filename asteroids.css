@@ -1,6 +1,7 @@
 h1 {
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 15px;
 	text-align: center;
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 32px;
@@ -40,11 +41,23 @@ h3 {
 }
 
 #directions{
-	width: 200px;
-	text-align: left;
+	width: 100%;
+	text-align: center;
 	margin: 0;
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
+}
+
+#one {
+	position: inline-block;
+}
+
+#explanation {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 600px;
+	width: 700px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 .button {
